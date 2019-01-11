@@ -5,13 +5,13 @@ namespace gud3\sms\Services;
 use gud3\sms\Sms;
 use SoapClient;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class TurboSms
  * @package gud3\sms\Services
  */
-class TurboSms extends Object implements ServiceInterface
+class TurboSms extends BaseObject implements ServiceInterface
 {
     public $url = 'http://turbosms.in.ua/api/wsdl.html';
     public $login;
