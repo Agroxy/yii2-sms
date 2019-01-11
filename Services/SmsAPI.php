@@ -4,13 +4,13 @@ namespace gud3\sms\Services;
 
 use gud3\sms\Sms;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class SmsAPI
  * @package gud3\sms\Services
  */
-class SmsAPI extends Object implements ServiceInterface
+class SmsAPI extends BaseObject implements ServiceInterface
 {
     public $url = 'https://api1.smsapi.com/sms.do';
     public $login;
