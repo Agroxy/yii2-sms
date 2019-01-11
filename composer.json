@@ -1,5 +1,5 @@
 {
-    "name": "gud3/yii2-sms",
+    "name": "agroxy/yii2-sms",
     "description": "The message sender. The package includes sending for service turbosms.",
     "type": "yii2-extension",
     "keywords": ["yii2"," sms"," turbosms"," sms sender."],
